@@ -13,7 +13,7 @@ int main() {
         if (student != "0") students.push_back(student);
     }
     std::cout << "First student : " << students.front() << std::endl;
-    std::cout << "Second student : " << students.back() << std::endl;
+    std::cout << "Last student : " << students.back() << std::endl;
 
     std::list<Complex> complex;
     Complex complex1(2, 2);
